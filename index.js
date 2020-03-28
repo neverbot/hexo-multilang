@@ -25,5 +25,5 @@ hexo.extend.helper.register('url_for', helpers.url_for);
 // Generators
 const generators = require('./lib/generators');
 
-hexo.extend.generator.register('category', generators.category_generator);
-hexo.extend.generator.register('archive', generators.archive_generator);
+hexo.extend.generator.register('category', generators.categories_generator);
+hexo.extend.generator.register('archive', generators.archives_generator);
