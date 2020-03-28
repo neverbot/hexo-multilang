@@ -10,7 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/neverbot/hexo-multilang.git"
   },
-  "author": "Ivan Alonso (@neverbot)",
+  "keywords": [
+    "hexo",
+    "generator",
+    "i18n"
+  ],
+  "author": {
+    "name": "Ivan Alonso (@neverbot)",
+    "email": "ivan@neverbot.com",
+    "url": "http://neverbot.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/neverbot/hexo-multilang/issues"
