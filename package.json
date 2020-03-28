@@ -1,0 +1,19 @@
+{
+  "name": "hexo-multilang",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neverbot/hexo-multilang.git"
+  },
+  "author": "Ivan Alonso (@neverbot)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neverbot/hexo-multilang/issues"
+  },
+  "homepage": "https://github.com/neverbot/hexo-multilang#readme"
+}
