@@ -6,14 +6,14 @@ if (
   !hexo.config.plugins['hexo-multilang']
 ) {
   hexo.log.info(
-    'Plugins config not found in _config.yml.\n' +
+    'hexo-multilang config not found in _config.yml.\n' +
       '      Visit https://github.com/neverbot/hexo-multilang for more information.'
   );
   return;
 }
 
 // Helpers
-var helpers = require('./lib/helpers');
+const helpers = require('./lib/helpers');
 
 // mask the original url_for
 const original_url_for = hexo.extend.helper.get('url_for').bind(hexo);
@@ -23,6 +23,6 @@ hexo.extend.helper.register('get_languages', helpers.get_languages);
 hexo.extend.helper.register('url_for', helpers.url_for);
 
 // Generators
-var generators = require('./lib/generators');
+const generators = require('./lib/generators');
 
 hexo.extend.generator.register('category', generators.category_generator);
