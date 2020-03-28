@@ -28,3 +28,4 @@ const generators = require('./lib/generators');
 hexo.extend.generator.register('category', generators.categories_generator);
 hexo.extend.generator.register('archive', generators.archives_generator);
 hexo.extend.generator.register('tag', generators.tags_generator);
+hexo.extend.generator.register('index', generators.indices_generator);
