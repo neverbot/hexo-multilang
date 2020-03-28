@@ -21,3 +21,8 @@ hexo.extend.helper.register('__hexo_multilang_url_for', original_url_for);
 
 hexo.extend.helper.register('get_languages', helpers.get_languages);
 hexo.extend.helper.register('url_for', helpers.url_for);
+
+// Generators
+var generators = require('./lib/generators');
+
+hexo.extend.generator.register('category', generators.category_generator);
