@@ -15,7 +15,7 @@ if (
 // Helpers
 const helpers = require('./lib/helpers');
 
-// mask the original url_for
+// mask the original url_for, it will be used _inside_ this plugin
 const original_url_for = hexo.extend.helper.get('url_for').bind(hexo);
 hexo.extend.helper.register('__hexo_multilang_url_for', original_url_for);
 

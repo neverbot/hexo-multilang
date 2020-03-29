@@ -1,6 +1,6 @@
 {
   "name": "hexo-multilang",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,9 @@
   "keywords": [
     "hexo",
     "generator",
-    "i18n"
+    "i18n",
+    "multilang",
+    "multilanguage"
   ],
   "author": {
     "name": "Ivan Alonso (@neverbot)",
