@@ -1,5 +1,10 @@
 # hexo-multilang
 
+![npm](https://img.shields.io/npm/dt/hexo-multilang)
+![npm](https://img.shields.io/npm/dw/hexo-multilang)
+[![GitHub license](https://img.shields.io/github/license/neverbot/hexo-multilang)](https://github.com/neverbot/hexo-multilang/blob/master/license.md)
+![npm](https://img.shields.io/npm/v/hexo-multilang)
+
 Multi-language plugin for [Hexo](https://github.com/hexojs/hexo)
 
 Based in [`hexo-generator-basic-set`](https://github.com/zyzyz/hexo-generator-basic-set) and [`hexo-generator-i18n`](https://github.com/Jamling/hexo-generator-i18n).
