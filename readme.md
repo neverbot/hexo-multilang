@@ -20,11 +20,9 @@ Remove any of these packages if they are installed:
 $ npm remove hexo-generator-archive hexo-generator-category hexo-generator-index hexo-generator-tag hexo-generator-basic-set hexo-generator-i18n
 ```
 
-
 In Hexo the list of plugins installed will be taken from the `package.json` file, and will be loaded and executed in the order which they are found in. In your local computer or environment you can define the order editing such file, but in a continuous integration environment, the `package.json` file will be created automatically, probably with alphabetical order. As the generators (`archive`, `index`, `tag`, `category`) are called by the same name in every plugin, the last one will have precedence.
 
 So, until Hexo has a better way of handling the loading and execution of plugins, my recommendation is to uninstall any other plugin which includes the same generators or helpers, like the four default ones (the `npm remove` you can see above these lines), or the plugins `hexo-multilang` is based on, like `hexo-generator-basic-set` and `hexo-generator-i18n`.
-
 
 ## Config
 
@@ -63,7 +61,7 @@ plugins:
       enable-index-page: true
 ```
 
-## Post creator modified
+## Post creator modified
 
 When you create a new blog post, it will be created (base on the corresponding scaffold) in every language set in the `_config.yml` file. i.e:
 
@@ -98,7 +96,6 @@ If `ignore` is present and is `true`, the `url_for` helper will behave as the or
 ```
 
 If `language` is present and is one of the languages defined as an option in the plugin configuration, the language part of the url will be forced to be this value.
-
 
 ## License
 
