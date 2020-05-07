@@ -63,9 +63,21 @@ plugins:
       enable-index-page: true
 ```
 
+## Post creator modified
+
+When you create a new blog post, it will be created (base on the corresponding scaffold) in every language set in the `_config.yml` file. i.e:
+
+```
+$ hexo new 'Something something'
+INFO  Posts created in: en, es
+INFO  Created: /<your path>/source/_posts/es/1900/01/01/something-something.md
+INFO  Created: /<your path>/source/_posts/en/1900/01/01/something-something.md
+```
+
 ## Helpers included
 
 ### url_for
+
 This plugin overwrites the original hexo `url_for` helper with a new one. By default it would prepend the needed language in the url path:  `https://domain.com/some/thing/` would be `https://domain.com/<lang>/some/thing/`.
 If you need the original helper, it is saved as `__hexo_multilang_url_for`.
 
