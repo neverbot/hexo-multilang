@@ -5,9 +5,13 @@
 [![GitHub license](https://img.shields.io/github/license/neverbot/hexo-multilang)](https://github.com/neverbot/hexo-multilang/blob/master/license.md)
 [![npm](https://img.shields.io/npm/v/hexo-multilang)](https://www.npmjs.com/package/hexo-multilang)
 
-Multi-language plugin for [Hexo](https://github.com/hexojs/hexo)
+Multi-language plugin for [Hexo](https://github.com/hexojs/hexo). Helps you manage a Hexo page whose contents are written in different languages.
 
 Based in [`hexo-generator-basic-set`](https://github.com/zyzyz/hexo-generator-basic-set) and [`hexo-generator-i18n`](https://github.com/Jamling/hexo-generator-i18n).
+
+## Demo
+
+You can see this plugin in use in [maldorne.org](https://maldorne.org), a Hexo blog which uses the `hexo-multilang` plugin with a modified version of the [Chic](https://github.com/Siricee/hexo-theme-Chic) theme. It has a language selector in the upper right corner, so you can see the blog changes **not only** the language of the theme, but the language of the contents, also.
 
 ## Installation
 
