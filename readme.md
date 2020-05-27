@@ -1,9 +1,9 @@
 # hexo-multilang
 
-![npm](https://img.shields.io/npm/dt/hexo-multilang)
-![npm](https://img.shields.io/npm/dw/hexo-multilang)
+[![npm](https://img.shields.io/npm/dt/hexo-multilang)](https://www.npmjs.com/package/hexo-multilang)
+[![npm](https://img.shields.io/npm/dw/hexo-multilang)](https://www.npmjs.com/package/hexo-multilang)
 [![GitHub license](https://img.shields.io/github/license/neverbot/hexo-multilang)](https://github.com/neverbot/hexo-multilang/blob/master/license.md)
-![npm](https://img.shields.io/npm/v/hexo-multilang)
+[![npm](https://img.shields.io/npm/v/hexo-multilang)](https://www.npmjs.com/package/hexo-multilang)
 
 Multi-language plugin for [Hexo](https://github.com/hexojs/hexo)
 
