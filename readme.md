@@ -67,9 +67,14 @@ plugins:
 
 ## Post creator modified
 
-When you create a new blog post, it will be created (based on the corresponding scaffold) in every language set in the `_config.yml` file. i.e:
-
+When you create a new blog post, it will be created (based on the corresponding scaffold) in every language set in the `_config.yml` file. i.e: for a config with:
+``` yaml
+language: [en, es]
+permalink: :language/:year/:month/:day/:title/
+new_post_name: :language/:year/:month/:day/:title.md
 ```
+the creation of a new post will be like this:
+``` bash
 $ hexo new 'Something something'
 INFO  Posts created in: en, es
 INFO  Created: /<your path>/source/_posts/es/1900/01/01/something-something.md
