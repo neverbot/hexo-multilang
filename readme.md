@@ -13,6 +13,10 @@ Based in [`hexo-generator-basic-set`](https://github.com/zyzyz/hexo-generator-ba
 
 You can see this plugin in use in [maldorne.org](https://maldorne.org), a Hexo blog which uses the `hexo-multilang` plugin with a modified version of the [Chic](https://github.com/Siricee/hexo-theme-Chic) theme. It has a language selector in the upper right corner, so you can see the blog changes **not only** the language of the theme, but the language of the contents, also.
 
+### How to test the plugin in an easy way
+
+This plugin provides functions which can help you build a multilang theme. The fastest way to see what can be achieved would be using an already compatible theme, so you could compare code and include the functionalities you would need in your own page. I've modified a version of the [Chic Theme](https://github.com/Siricee/hexo-theme-Chic) to make it compatible with `hexo-multilang`, which you can found in [hexo-chic-theme-multilang](https://github.com/neverbot/hexo-theme-chic-multilang). Take a look to its installation instructions if you want to test it in a local Hexo Blog, so you can see if this is what you are looking for.
+
 ## Installation
 
 ``` bash
@@ -27,10 +31,6 @@ $ npm remove hexo-generator-archive hexo-generator-category hexo-generator-index
 In Hexo the list of plugins installed will be taken from the `package.json` file, and will be loaded and executed in the order which they are found in. Any change or update to this file, locally or in a continuous integration environment, might be able to set its contents in alphabetical order, potentially changing your expected results. As the generators (`archive`, `index`, `tag`, `category`) are called by the same name in every plugin, the last plugin which uses them will have precedence.
 
 So, until Hexo has a better way of handling the loading and execution of plugins, my recommendation is to uninstall any other plugin which includes the same generators or helpers, like the four default ones (the `npm remove` you can see above these lines), or the plugins `hexo-multilang` is based on, like `hexo-generator-basic-set` and `hexo-generator-i18n`.
-
-## How to test the plugin in an easy way
-
-This plugin provides functions which can help you build a multilang theme. The fastest way to see what can be achieved would be using an already compatible theme, so you could compare code and include the functionalities you would need in your own page. I've modified a version of the [Chic Theme](https://github.com/Siricee/hexo-theme-Chic) to make it compatible with `hexo-multilang`, which you can found in [hexo-chic-theme-multilang](https://github.com/neverbot/hexo-theme-chic-multilang). Take a look to its installation instructions if you want to test it in a local Hexo Blog, so you can see if this is what you are looking for.
 
 ## Config
 
