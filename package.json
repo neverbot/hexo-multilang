@@ -4,6 +4,8 @@
   "description": "Multi-language plugin for Hexo",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/eslint/bin/eslint.js . --ext .js,.json",
+    "lint:fix": "./node_modules/eslint/bin/eslint.js . --ext .js,.json --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
