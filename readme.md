@@ -1,13 +1,17 @@
 # hexo-multilang
 
-![npm](https://img.shields.io/npm/dt/hexo-multilang)
-![npm](https://img.shields.io/npm/dw/hexo-multilang)
+[![npm](https://img.shields.io/npm/dt/hexo-multilang)](https://www.npmjs.com/package/hexo-multilang)
+[![npm](https://img.shields.io/npm/dw/hexo-multilang)](https://www.npmjs.com/package/hexo-multilang)
 [![GitHub license](https://img.shields.io/github/license/neverbot/hexo-multilang)](https://github.com/neverbot/hexo-multilang/blob/master/license.md)
-![npm](https://img.shields.io/npm/v/hexo-multilang)
+[![npm](https://img.shields.io/npm/v/hexo-multilang)](https://www.npmjs.com/package/hexo-multilang)
 
-Multi-language plugin for [Hexo](https://github.com/hexojs/hexo)
+Multi-language plugin for [Hexo](https://github.com/hexojs/hexo). Helps you manage a Hexo page whose contents are written in different languages.
 
 Based in [`hexo-generator-basic-set`](https://github.com/zyzyz/hexo-generator-basic-set) and [`hexo-generator-i18n`](https://github.com/Jamling/hexo-generator-i18n).
+
+## Demo
+
+You can see this plugin in use in [maldorne.org](https://maldorne.org), a Hexo blog which uses the `hexo-multilang` plugin with a modified version of the [Chic](https://github.com/Siricee/hexo-theme-Chic) theme. It has a language selector in the upper right corner, so you can see the blog changes **not only** the language of the theme, but the language of the contents, also.
 
 ## Installation
 
@@ -67,9 +71,14 @@ plugins:
 
 ## Post creator modified
 
-When you create a new blog post, it will be created (base on the corresponding scaffold) in every language set in the `_config.yml` file. i.e:
-
+When you create a new blog post, it will be created (based on the corresponding scaffold) in every language set in the `_config.yml` file. i.e: for a config with:
+``` yaml
+language: [en, es]
+permalink: :language/:year/:month/:day/:title/
+new_post_name: :language/:year/:month/:day/:title.md
 ```
+the creation of a new post will be like this:
+``` bash
 $ hexo new 'Something something'
 INFO  Posts created in: en, es
 INFO  Created: /<your path>/source/_posts/es/1900/01/01/something-something.md
