@@ -30,14 +30,14 @@
   },
   "homepage": "https://github.com/neverbot/hexo-multilang#readme",
   "devDependencies": {
-    "eslint": "^7.5.0",
-    "eslint-config-prettier": "^6.11.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-json-format": "^2.0.1",
-    "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.0.5"
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.0"
   },
   "dependencies": {
-    "chalk": "^4.1.0",
+    "chalk": "^4.1.1",
     "hexo-pagination": "^1.0.0",
     "tildify": "^2.0.0"
   }
