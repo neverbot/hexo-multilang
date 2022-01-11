@@ -5,6 +5,9 @@
 [![GitHub license](https://img.shields.io/github/license/neverbot/hexo-multilang)](https://github.com/neverbot/hexo-multilang/blob/master/license.md)
 [![npm](https://img.shields.io/npm/v/hexo-multilang)](https://www.npmjs.com/package/hexo-multilang)
 
+| :warning: | *This project has been abandoned*: It was created to manage an Hexo web page with contents written in multiple languages (every page and post were repeated in every language, and you could switch between languages to see the different contents). I was managing a webpage with such needs, but not anymore, so I'm not going to maintain it. You can fork it and continue the work if you want. |
+| --- | --- |
+
 Multi-language plugin for [Hexo](https://github.com/hexojs/hexo). Helps you manage a Hexo page whose contents are written in different languages.
 
 Based in [`hexo-generator-basic-set`](https://github.com/zyzyz/hexo-generator-basic-set) and [`hexo-generator-i18n`](https://github.com/Jamling/hexo-generator-i18n).
